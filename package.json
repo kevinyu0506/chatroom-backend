@@ -1,0 +1,24 @@
+{
+  "name": "chatroom-backend",
+  "version": "1.0.0",
+  "description": "A simple chatroom application backend build with express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/www"
+  },
+  "author": "kevinyu0506",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "http": "0.0.1-security",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  }
+}
